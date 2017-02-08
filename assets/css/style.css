@@ -1,0 +1,61 @@
+.begin {
+	background-color: grey;
+}
+
+.openingp {
+	margin: auto;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+
+.profilepic {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.globe {
+	width: 200px;
+	padding-bottom: 15px;
+}
+
+.tpic {
+	width: 10%;
+}
+
+.ctr {
+	text-align: center;
+}
+
+.panel-footer {
+	text-align: center;
+	font-size: .75em;
+	color: white;
+	background-color: #2B3233;
+}
+
+h2 {
+	padding-bottom: 15px;
+}
+
+#aboutme {
+	font-weight: 500;
+}
+
+.wrapper .text {
+	position:relative;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	opacity: 0.8;
+	bottom:30px;
+	left:0px;
+	visibility:hidden;
+}
+
+.wrapper:hover .text {
+	visibility:visible;
+}
