@@ -59,3 +59,18 @@ h2 {
 .wrapper:hover .text {
 	visibility:visible;
 }
+
+@media only screen and (max-width: 700px) {
+#boogerButt {
+	float: left;
+	margin-top: 210px;
+	margin-left: -240px;
+	}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 850px) {
+#boogerButt {
+	width: 60%;
+	margin-left: 50px;
+	}
+}
